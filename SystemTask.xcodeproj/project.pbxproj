@@ -16,6 +16,7 @@
 		1765D24D23DEE5640085E0EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1765D24B23DEE5640085E0EC /* LaunchScreen.storyboard */; };
 		1765D25823DEE5640085E0EC /* SystemTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D25723DEE5640085E0EC /* SystemTaskTests.swift */; };
 		1765D26323DEE5640085E0EC /* SystemTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D26223DEE5640085E0EC /* SystemTaskUITests.swift */; };
+		1765D27323DEEB1B0085E0EC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D27223DEEB1B0085E0EC /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1765D25E23DEE5640085E0EC /* SystemTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1765D26223DEE5640085E0EC /* SystemTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemTaskUITests.swift; sourceTree = "<group>"; };
 		1765D26423DEE5640085E0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1765D27223DEEB1B0085E0EC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				1765D24B23DEE5640085E0EC /* LaunchScreen.storyboard */,
 				1765D24E23DEE5640085E0EC /* Info.plist */,
 				1765D24623DEE5570085E0EC /* SystemTask.xcdatamodeld */,
+				1765D27223DEEB1B0085E0EC /* TableViewCell.swift */,
 			);
 			path = SystemTask;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1765D27323DEEB1B0085E0EC /* TableViewCell.swift in Sources */,
 				1765D24223DEE5570085E0EC /* ViewController.swift in Sources */,
 				1765D23E23DEE5570085E0EC /* AppDelegate.swift in Sources */,
 				1765D24023DEE5570085E0EC /* SceneDelegate.swift in Sources */,
